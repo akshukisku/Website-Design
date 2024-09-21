@@ -7,6 +7,14 @@ html,body{
     height: 100%;
     width:100%;
 }
+@font-face {
+    font-family: Canopee;
+    src: url(./fonts/Canopee.woff2) format(woff2);
+}
+@font-face {
+    font-family: Editorial;
+    src: url(./fonts/Editorial.woff2) format(woff2);
+}
 #page1{
     height: 100vh;
     width: 100vw;
@@ -39,7 +47,7 @@ html,body{
     font-size: 30px;
 }
 #elmes{
-    background-color: red;
+    /* background-color: red; */
     height: 480px;
     display: flex;
     align-items: center;
@@ -54,9 +62,11 @@ html,body{
 #elem2{
     height: 100%;
     width: 25%;
+    padding: 20px 30px;
+    text-align: center;
     /* background-color: blue; */
-    border-right: 1px solid #b7b4b4;
-    border-left: 1px solid #222;;
+    border-right: 3px solid #949191;
+    border-left: 3px solid #949191;
 }
 #elem3{
     height: 100%;
@@ -64,11 +74,13 @@ html,body{
     background-color: blue;
 }
 #elem1 #image-div{
+    border: 1px solid #222;
     height: 60%;
     width: 100%;
     overflow: hidden;
 }
 #elem3 #image-div{
+    border: 1px solid #222;
     height: 60%;
     width: 100%;
     overflow: hidden;
