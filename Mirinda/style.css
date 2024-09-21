@@ -25,4 +25,60 @@ html,body{
 
 #nav img{
     height: 30px;
+    width: 30%;
+}
+#nav h5{
+    font-size:20px;
+    font-weight: 100;
+    width: 30%;
+}
+
+#nav i{
+    width: 30%;
+    text-align: end;
+    font-size: 30px;
+}
+#elmes{
+    background-color: red;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#elem1{
+    height: 100%;
+    width: 30%;
+    background-color: blue;
+}
+#elem2{
+    height: 100%;
+    width: 25%;
+    /* background-color: blue; */
+    border-right: 1px solid #b7b4b4;
+    border-left: 1px solid #222;;
+}
+#elem3{
+    height: 100%;
+    width: 30%;
+    background-color: blue;
+}
+#elem1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#elem3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#image-div img{
+    height: 100%;
+    transition: all ease 0.7s;
+    width: 100%;
+    object-fit: cover;
+}
+#image-div:hover img{
+    scale: 1.1;
 }
